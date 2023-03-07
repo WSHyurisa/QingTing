@@ -25,6 +25,7 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Search: typeof import('./components/Banner/Search/Search.vue')['default']
+    Skeleton: typeof import('./components/Skeleton/Skeleton.vue')['default']
     SMSLogin: typeof import('./components/LoginRegister/LRForms/LoginForms/SMSLogin.vue')['default']
     SwitchLoginBtn: typeof import('./components/Banner/LoginBtn/SwitchLoginBtn.vue')['default']
     TitleUI: typeof import('./components/UI/titleUI/titleUI.vue')['default']

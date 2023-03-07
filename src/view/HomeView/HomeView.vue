@@ -13,6 +13,9 @@
                 <div id="ContentArea">
                     <RouterView></RouterView>
                 </div>
+                <template #fallback>
+                    <Skeleton></Skeleton>
+                </template>
             </Suspense>
 
         </div>
@@ -23,6 +26,7 @@
     import Banner from '@/components/Banner/Banner.vue'
     import TopRouter from "@/components/TopRouter/TopRouter.vue";
     import AsideRouter from '@/components/AsideRouter/AsideRouter.vue';
+    import Skeleton from '@/components/Skeleton/Skeleton.vue';
 </script>
 <style scoped lang="scss">
     #HomeView{

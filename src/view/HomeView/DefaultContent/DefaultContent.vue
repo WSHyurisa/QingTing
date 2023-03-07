@@ -1,12 +1,7 @@
 <!-- 初始内容 -->
 <template>
   <div id="ContentArea">
-    <ArticleList
-    title="今日热门"
-    :articleNumber="8"
-    :articleClass="0"
-    />
-    <!-- 这里放一些展示内容 -->
+
     <ArticleList 
     v-for="item in REQ_PARAMS_LIST" 
     :key="item.title" 
@@ -14,7 +9,7 @@
     :articleNumber="item.articleNumber" 
     :articleClass="item.articleClass"
     />
-
+    <!-- 这里放一些展示内容 -->
   </div>
 </template>
 
