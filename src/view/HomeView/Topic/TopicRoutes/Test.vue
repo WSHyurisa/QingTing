@@ -1,8 +1,6 @@
 <!--  -->
 <template>
-  <!-- <LoadingImage 
-  :imgSrc=""
-  /> -->
+
 </template>
 
 <script lang='ts' setup>

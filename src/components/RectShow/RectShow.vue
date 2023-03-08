@@ -17,10 +17,9 @@
 <style scoped lang="scss">
     #RectShow{
         position: relative;
-        width: 79%;
+        width: 100%;
         height: 170px;
-        padding-left: 1.5%;
-        padding-right: 0.5%;
+        padding: 0 1.5%;
 
 
 

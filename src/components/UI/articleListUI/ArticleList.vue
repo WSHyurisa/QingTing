@@ -43,7 +43,7 @@
             flex-wrap: wrap;
             align-content: start;
             gap:  4% 0;
-            width: 80%;
+            width: 100%;
             height: 100%;
             padding: 10px;
           }

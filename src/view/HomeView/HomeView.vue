@@ -6,15 +6,15 @@
             <TopRouter/>
         </header>
         <div id="main">
-            <aside>
+            <aside id="Router">
                 <AsideRouter/>
             </aside>
-            <Suspense>
-                <div id="ContentArea">
-                    <RouterView></RouterView>
-                </div>
-            </Suspense>
-
+            <div id="ContentArea">
+                <RouterView></RouterView>
+            </div>
+            <aside id="Other">
+                测试??????????????
+            </aside>
         </div>
     </div>
 </template>
@@ -23,7 +23,6 @@
     import Banner from '@/components/Banner/Banner.vue'
     import TopRouter from "@/components/TopRouter/TopRouter.vue";
     import AsideRouter from '@/components/AsideRouter/AsideRouter.vue';
-    import Skeleton from '@/components/Skeleton/Skeleton.vue';
 </script>
 <style scoped lang="scss">
     #HomeView{
@@ -36,9 +35,15 @@
 
             aside {
                 position: relative;
+            }
+
+            #Router{
                 width: 200px;
             }
 
+            #Other{
+                width: 280px;
+            }
             #ContentArea {
                 position: relative;
                 flex: 1;
