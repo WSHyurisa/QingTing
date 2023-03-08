@@ -2,7 +2,12 @@
 <template>
   <div id="Card">
     <div class="Content">
-        <img class="Exhibit" :src="image" :title="title"/>
+        <LoadingImage
+        class="Exhibit"
+        :imgSrc="image"
+        :title="title"
+        />
+        <!-- <img class="Exhibit" :src="image" :title="title"/> -->
         <div class="articleSummary" :title="title">
             {{ title }}
         </div>
@@ -25,6 +30,7 @@
 </template>
 
 <script lang='ts' setup>
+    import LoadingImage from '@/components/LoadingImage/LoadingImage.vue';
     const props = defineProps({
         userName: {
             type: String,

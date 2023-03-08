@@ -18,6 +18,7 @@ declare module '@vue/runtime-core' {
     GeneralForm: typeof import('./components/LoginRegister/LRForms/GeneralForm/GeneralForm.vue')['default']
     HomeForm: typeof import('./components/LoginRegister/LRForms/HomeForm.vue')['default']
     InputUI: typeof import('./components/UI/InputUI/InputUI.vue')['default']
+    LoadingImage: typeof import('./components/LoadingImage/LoadingImage.vue')['default']
     LoginBtn: typeof import('./components/LoginRegister/LRForms/SignBtns/LoginBtn.vue')['default']
     Logo: typeof import('./components/Banner/Logo/Logo.vue')['default']
     PWLogin: typeof import('./components/LoginRegister/LRForms/LoginForms/PWLogin.vue')['default']

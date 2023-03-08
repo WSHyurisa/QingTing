@@ -69,28 +69,6 @@ export const ASIDE_ROUTER_TITLE = [
         ]
     },
     {
-        // name: 'asidementalHealth',
-        firstTitle: '心理健康',
-        secondRouter: [
-            {
-                secondTitle: '压力',
-                name: 'pressure'
-            },
-            {
-                secondTitle: '焦虑',
-                name: 'anxious'
-            },
-            {
-                secondTitle: '抑郁',
-                name: 'depressed'
-            },
-            {
-                secondTitle: '自我提升',
-                name: 'promotion'
-            }
-        ]
-    },
-    {
         // name: 'asideexpreience',
         firstTitle: '人生经历',
         secondRouter: [
@@ -139,26 +117,16 @@ export const ASIDE_ROUTER_TITLE = [
         firstTitle: '心灵寄托',
         secondRouter: [
             {
+                secondTitle: '精神感悟',
+                name: 'soulFeeling'
+            },
+            {
                 secondTitle: '心灵鸡汤',
                 name: 'soulSoother'
             },
             {
                 secondTitle: '励志故事',
                 name: 'inspiringStory'
-            }
-        ]
-    },
-    {
-        // name: 'asidesocialSpots',
-        firstTitle: '社会热点',
-        secondRouter: [
-            {
-                secondTitle: '社会事件',
-                name: 'socialEvent'
-            },
-            {
-                secondTitle: '时事评论',
-                name: 'eventComment'
             }
         ]
     }
