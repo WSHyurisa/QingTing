@@ -13,9 +13,6 @@
                 <div id="ContentArea">
                     <RouterView></RouterView>
                 </div>
-                <template #fallback>
-                    <Skeleton></Skeleton>
-                </template>
             </Suspense>
 
         </div>

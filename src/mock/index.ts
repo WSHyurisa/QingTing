@@ -1,7 +1,7 @@
 import Mock,{Random} from 'mockjs'
 
-Mock.mock(RegExp('/api/articleData' + '.*'),{
-    "data|4" : [{
+Mock.mock(RegExp('/api/aritcle/articleData' + '.*'),{
+    "data|8" : [{
         id: "@id",
         image: "@image",
         title: "@ctitle",
@@ -9,5 +9,10 @@ Mock.mock(RegExp('/api/articleData' + '.*'),{
         signNumber: "@natural(50,999)",
         avatar: Random.image('400x400', Random.color(), Random.color(), Random.first())
     }]
+})
 
+Mock.mock('/api/other/showImage', {
+    "data" : {
+        image: "@image"
+    }
 })
